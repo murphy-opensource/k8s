@@ -1,15 +1,15 @@
 # k8s
 
-FROM k8s.gcr.io/kube-apiserver:v1.21.0
+FROM k8s.gcr.io/kube-apiserver:latest
 
-FROM k8s.gcr.io/kube-controller-manager:v1.21.0
+FROM k8s.gcr.io/kube-controller-manager:latest
 
-FROM k8s.gcr.io/kube-scheduler:v1.21.0
+FROM k8s.gcr.io/kube-scheduler:latest
 
-FROM k8s.gcr.io/kube-proxy:v1.21.0
+FROM k8s.gcr.io/kube-proxy:latest
 
-FROM k8s.gcr.io/pause:3.4.1
+FROM k8s.gcr.io/pause:latest
 
-FROM k8s.gcr.io/etcd:3.4.13-0
+FROM k8s.gcr.io/etcd:latest
 
-FROM k8s.gcr.io/coredns/coredns:v1.8.0
+FROM k8s.gcr.io/coredns/coredns:latest
